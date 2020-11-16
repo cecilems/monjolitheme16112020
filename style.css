@@ -7,3 +7,21 @@ Description: Le thème développé avec Chaton
 Version: 0.1
 Tags: simple, facile, sans danger, base pour la suite
 */
+
+
+header {
+    background-color: blue;
+    }
+    
+footer {
+    background-color: green;
+    }
+.side{
+    background-color: yellow;
+    }
+.loop{
+    background-color: lightblue;
+    }
+form {
+    background-color: white;
+    }
