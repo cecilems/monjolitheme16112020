@@ -2,7 +2,7 @@
 get_header();
 ?>
 <div class="category">
-<h1>Terme de recherche xxxxxxxx</h1>
+<h1>Terme de recherche <?php  the_search_query(); ?></h1>
 <?php get_template_part('loop'); ?>
 </div>
 <?php
