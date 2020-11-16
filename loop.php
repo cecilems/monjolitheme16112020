@@ -10,7 +10,8 @@ Hey ! Il y a des Posts !
 </h3>
 <p class="post-info">
 Posté le <?php the_date(); ?> dans <?php the_category(', ');
-?> par <?php the_author(); ?>.
+?> par <?php the_author(); ?>
+<?php the_tags(); ?>.
 </p>
 <div class="post-content">
 <?php the_content(); ?>
