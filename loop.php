@@ -1,4 +1,5 @@
 <div class="loop">
+<?php query_posts('posts_per_page=2');?>
 <?php if (have_posts()) : ?>
 <p class="title">
 Hey ! Il y a des Posts !
